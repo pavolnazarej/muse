@@ -1,0 +1,158 @@
+/* NAV STYLE STARTS HERE */
+
+.navlogo {
+    width: 200px;
+    margin-top: -15px;
+}
+.navbar-default {
+    background-color: black;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+  
+    
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+     background-color: black;
+    color: white;
+}
+.or {
+    color: #999999;
+    font-size: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+.btn btn-signin sign navbar-btn {color: black;}
+.btn btn-createacc create navbar-btn {color: black;}
+/* IMAGE */
+
+.wide {
+    position: relative;
+    margin-top: 4em;
+    width:100%;
+    height: 40em;
+    
+    background-image: url(/images/music.jpg);
+    background-size:cover;
+}
+
+.header-action {
+    margin-top: 10em;
+    margin-left: 3em;
+}
+
+.header-action h3 {
+    color:white;
+    margin-left: 2px;
+    
+}
+.headerinfo1{
+    color:white;
+    font-size: 1.5em;
+}
+.headerinfo2 {
+    color:white;
+    font-size:2.5em;
+}
+.headerinfo3 {
+    font-size: 1.8em;
+    color:white;
+}
+
+/* END OF IMAGE */
+
+/* PROMO PAGE CONTENT */
+.content {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentlogo {
+    width: 250px;
+}
+/* PROMO PAGE CONTENT END */
+
+/* REGISTER PAGE CONTENT */
+.registercontent {
+    margin-top: 60px;
+}
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #72E6EC;
+    border-radius: 4px;
+    
+};
+
+
+
+#registerdiv {
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.downloadh2 {
+    color: #72E6EC;
+    text-align: center
+}
+
+/* REGISTER PAGE CONTENT END */
+/* Profile page content */
+
+.album {
+    width:184px;
+}
+
+/* Profile page content end*/
+.profilenav ul li {
+    list-style-type: none;
+    font-size: 1.5em;
+}
+.profilenav ul li a {
+    color: black;
+}
+.profilenav ul li a:hover,
+profilenav ul li a:focus{
+    color: #72E6EC;
+}
+
+.profilenav {
+    padding:0;
+    margin-left:-37px;
+}
+/* FOOTER */
+.footer {
+    height: 150px;
+}
+.footer ul {
+    list-style-type: none;
+   
+}
+.footer ul li {
+    display:inline;
+    color:#999999;
+}
+.footer ul li a{
+    color:#999999;
+}
+body {
+  font-family: Myriad Pro;
+  
+};
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
